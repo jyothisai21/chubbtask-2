@@ -10,18 +10,22 @@ export class DashboardComponent implements OnInit {
     {
       card:"Primary Card",
       class:"primary",
+     
     },
     {
       card:"Warning Card",
       class:"warning",
+     
     },
     {
       card:"Success Card",
       class:"success",
+     
     },
     {
       card:"Danger Card",
       class:"danger",
+     
     },
   ]
 

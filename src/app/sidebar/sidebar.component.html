@@ -31,35 +31,23 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item" (click)="onclick()">
-        <a class="nav-link collapsed" routerLink="products">
+    <li class="nav-item" >
+        <a class="nav-link collapsed" routerLink="product">
             <i class="fas fa-fw fa-cog"></i>
             <span>Products</span>
         </a>
-        <ul *ngIf="dropdown"       class="nav-item">
-            <li *ngFor="let item of productsList ">
-                <a routerLink="product/{{item}}" class="nav-link"><i class="fas fa-fw fa-cog"></i>
-                    <span>{{item}}</span>
-                </a>
-            </li>
-
-        </ul>
+       
     </li>
+        
+    
 
     <!-- Nav Item - Utilities Collapse Menu -->
-    <li class="nav-item" (click)="onclick1()">
+    <li class="nav-item" >
         <a class="nav-link collapsed" routerLink="user" >
             <i class="fas fa-fw fa-wrench"></i>
             <span>Users</span>
         </a>
-        <ul *ngIf="dropdown1"       class="nav-item">
-            <li *ngFor="let item of usersList ">
-                <a routerLink="user/{{item}}" class="nav-link"><i class="fas fa-fw fa-cog"></i>
-                    <span>{{item}}</span>
-                </a>
-            </li>
-
-        </ul>
+       
     </li>
 
     <li class="nav-item">
